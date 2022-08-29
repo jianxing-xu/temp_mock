@@ -1,0 +1,140 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "orderDetail": {
+      "orderId": "01011054516034",
+      "serialNumber": "0099",
+      "tableNumber": null,
+      "comment": null,
+      "statusId": "ORDER_APPROVED",
+      "lastUpdatedStamp": 1661338144555,
+      "statuses": [
+        "ORDER_CREATED",
+        "ORDER_APPROVED"
+      ],
+      "currencyUomId": "IDR",
+      "productStoreId": "10150",
+      "productStoreLocale": "in",
+      "buyerLocale": "in",
+      "timeZoneId": "Asia/Pontianak",
+      "productStoreUrlFlag": "demo",
+      "productStoreName": "Demo",
+      "productStoreLogo": "https://desty-upload-indonesia.oss-ap-southeast-5.aliyuncs.com/menu/00110150/db58cf136a974b7c9ae77ddb7c033847.png",
+      "shipType": "Ambil di toko",
+      "serviceType": "PICK_UP",
+      "businessType": 700,
+      "scheduled": false,
+      "scheduledDate": null,
+      "scheduledEndDate": null,
+      "scheduledStatus": null,
+      "offLinePayment": false,
+      "grandTotal": 21000,
+      "transactionFee": 0,
+      "income": 21000,
+      "itemSubTotal": 9999,
+      "itemQuantityTotal": 1,
+      "shippingTotal": 0,
+      "promoTotalWithoutGift": 0,
+      "createdTime": {
+        "dbStamp": 1661338138805,
+        "localeStamp1": "2022-08-24 17:48:58",
+        "localeStamp2": "24/08/2022 17:48",
+        "localeStamp3": "Wednesday, 24 August 2022 17:48",
+        "localeStamp4": "Wed, 24 Aug 2022 17:48",
+        "localeStamp5": "2022-08-24 17:48:58.805",
+        "localeStamp6": "2022-08-24",
+        "localeStamp7": "24/08/2022 17:48:58",
+        "localeStamp8": "24_08_2022",
+        "localeStamp9": "24/08/2022",
+        "localeStamp10": "17:48:58"
+      },
+      "paidTime": {
+        "dbStamp": 1661338144545,
+        "localeStamp1": "2022-08-24 17:49:04",
+        "localeStamp2": "24/08/2022 17:49",
+        "localeStamp3": "Wednesday, 24 August 2022 17:49",
+        "localeStamp4": "Wed, 24 Aug 2022 17:49",
+        "localeStamp5": "2022-08-24 17:49:04.545",
+        "localeStamp6": "2022-08-24",
+        "localeStamp7": "24/08/2022 17:49:04",
+        "localeStamp8": "24_08_2022",
+        "localeStamp9": "24/08/2022",
+        "localeStamp10": "17:49:04"
+      },
+      "completedTime": null,
+      "cancelledTime": null,
+      "payments": [
+        {
+          "paymentMethodTypeId": "MIDE_SHOPEEPAY",
+          "paymentMethodName": "ShopeePay",
+          "amount": 21000,
+          "statusId": "PAYMENT_RECEIVED",
+          "paymentCode": "https://simulator.sandbox.midtrans.com/shopeepay/payment-pin?referenceId=DL-YBLdjG1B0SH7tv2LuZVwcQ",
+          "paymentDisplayName": "ShopeePay",
+          "paymentDisplayUrl": "https://static.desty.app/menu/paymentIcon/Omitted_shopepay.png",
+          "paymentType": "e-wallet"
+        }
+      ],
+      "shipment": {
+        "id": "STANDARD",
+        "name": "Desty Menu",
+        "externalTypeId": null,
+        "externalId": null,
+        "trackingNumber": null,
+        "liveTrackingUrl": null,
+        "driverName": null,
+        "driverPhone": null,
+        "trackingStatusCode": 300,
+        "collected": false,
+        "searchDriverTimes": 0
+      },
+      "orderItems": [
+        {
+          "groupId": "02",
+          "groupTypeId": "SINGLE",
+          "packageGroupId": null,
+          "productId": "186591",
+          "categoryName": "Watch",
+          "productName": "danpin001",
+          "internalName": null,
+          "description": null,
+          "originalImageUrl": "https://static.desty.app/menu/00110000/Default.jpg",
+          "comment": null,
+          "price": 9999,
+          "quantity": 1,
+          "subTotal": 9999,
+          "type": "single",
+          "netQuantity": 1,
+          "adjustmentAmountForPackage": 0,
+          "showAdjustmentToBuyerSeller": 0,
+          "promoType": "FLAT_AMOUNT_OVERRIDE",
+          "modifiers": [],
+          "status": "created"
+        }
+      ],
+      "orderGiftItems": [],
+      "tax": {
+        "amount": 9999,
+        "rate": 100,
+        "inclusive": false
+      },
+      "serviceCharge": {
+        "amount": 1000,
+        "rate": 10
+      },
+      "rounding": 2,
+      "promos": [],
+      "disbursementStatus": null,
+      "disbursementPaymentStatus": null,
+      "autoComplete": false
+    },
+    "paymentStatus": "SUCCESS",
+    "checkout_url": null,
+    "checkoutNumber": null,
+    "expiredDate": null,
+    "paymentFailureReason": null
+  },
+  "timeStamp": 1661742091806,
+  "requestId": "c3e0b9d2-26d3-4e43-bc37-a53241e88c66"
+}

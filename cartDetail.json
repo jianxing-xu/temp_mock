@@ -1,0 +1,57 @@
+{
+  "code": 200,
+  "message": "Success",
+  "data": {
+    "orderId": 89203849203,
+    "productStoreId": "10150",
+    "totalQuantity": 1,
+    "grandTotalWithoutShipping": 9999,
+    "grandTotal": 9999,
+    "shippingTotal": 0,
+    "promoTotalWithoutGift": 0,
+    "originalTotal": 9999,
+    "currencyUomId": "IDR",
+    "tax": {
+      "amount": 0,
+      "rate": 0,
+      "inclusive": false
+    },
+    "cartServiceCharge": {
+      "amount": 0,
+      "rate": 0
+    },
+    "rounding": 0,
+    "adjustments": [],
+    "cartItems": [
+      {
+        "groupNumber": "01",
+        "groupTypeId": "SINGLE",
+        "productId": "186591",
+        "productName": "danpin001",
+        "image": {
+          "original": "https://static.desty.app/menu/00110000/Default.jpg"
+        },
+        "inList": true,
+        "inLive": true,
+        "inStock": true,
+        "productStock": 100,
+        "price": 9999,
+        "basePrice": 9999,
+        "subtotal": 9999,
+        "baseSubtotal": 9999,
+        "baseSingleTotal": 9999,
+        "quantity": 1,
+        "comment": null,
+        "netQuantity": 1,
+        "finalPrice": 9999,
+        "packageGroupId": null,
+        "modifiers": [],
+        "sellable": true
+      }
+    ],
+    "cartGiftItems": [],
+    "cartPromos": []
+  },
+  "timeStamp": 1661739341397,
+  "requestId": "de5362f5-eefa-4f61-a8ee-0d451fa6438c"
+}
