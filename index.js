@@ -11,3 +11,6 @@ app.get('/order-cart-api//cart/cartDetail', (req, res) => {
   res.json(cartDetail);
 })
 
+app.listen(3232, () => {
+  console.log('mock is running');
+})
